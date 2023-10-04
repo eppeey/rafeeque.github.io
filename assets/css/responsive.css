@@ -1,0 +1,233 @@
+
+@media (max-width: 1399.98px) { 
+    .about__container {
+        grid-template-columns: 1.2fr 1fr;
+    }
+ }
+ @media (max-width: 1199.98px) { 
+    .home__main__t {
+        font-size: 60px;
+        font-weight: 700;
+    }
+    .about__container {
+        grid-template-columns: 1fr;
+    }
+    .about__right {
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: 1fr 1fr;
+    }
+    .projects__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+    }
+    .ieufewfg {
+        font-size: 25px;
+        line-height: 36px;
+    }
+    .chai__img {
+       
+        width: 120px;
+       
+    }
+    .ftblll {
+       
+        width: 120px;
+        
+    }
+    .stggg {
+        
+        width: 130px;
+        
+    }
+    .podooo {
+        
+        width: 110px;
+        
+    }
+    .bikkkkj {
+       
+        width: 180px;
+       
+    }
+    
+ }
+@media (max-width: 991.98px) { 
+    .hobby__container {
+        
+        grid-template-columns: 1fr;
+    }
+    .ftbl_styl__container{
+        grid-template-columns: 1fr 1fr;
+    }
+    .pdct__bike__container{
+        grid-template-columns: 1fr 1fr;
+    }
+    .ieufewfg{
+        padding: 2rem;
+    }
+    .home__main__t {
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .about__right {
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: 1fr;
+    }
+    .gghgfdryh{
+        font-size: 40px;
+        width: 80%;
+    }
+}
+ @media (max-width: 767.98px) { 
+    .home__img {
+        width: 100%;
+        justify-self: center;
+    } 
+    .section__title, .section__title-center{
+        font-size: 35px;
+        text-align: center;
+    }
+    .yysfdhhg{
+        margin-top: 30px;
+        text-align: left;
+        text-decoration: underline;
+        text-decoration-color: #F49F72;
+        font-size: 30px;
+      }
+      .breadcrumbb{
+        height: 300px;
+       
+      
+      }
+      .bread__container{
+        margin-top: 30px;
+       }
+       .breadcrumbb {
+        background-position-x: center;
+        height: 350px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(../img/bgg.svg);
+    }
+ }
+
+ @media (max-width: 575.98px) { 
+    .home__main__t {
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .yysfdhhg{
+        margin-top: 15px;
+        
+      }
+    .bread__container{
+        margin-top: 0px;
+       }
+    .breadcrumbb{
+        height: 250px;
+       
+      
+      }
+    .home__title {
+        font-size: 35px;
+        line-height: normal;
+    }
+    .button {
+        display: inline-block;
+        background-color: #000;
+        color: #FFF;
+        padding: 0.8rem 1.3rem;
+        border-radius: 10px;
+        font-weight: var(--font-medium);
+        transition: .3s;
+    }
+    .home__img {
+        width: 100%;
+        justify-self: center;
+    } 
+    .projects__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    .home__description {
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .section__title, .section__title-center {
+        font-size: 30px;
+        text-align: center;
+       
+    }
+    .about__para {
+        
+        font-size: 14px;
+        
+       
+        line-height: 25px;
+    }
+    .sdff{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .dsiug{
+        font-size: 25px;
+    }
+    .giajsa{
+        font-size: 12px;
+    }
+    .rfygg{
+        font-size: 14px;
+    }
+    .raff{
+        
+        font-size: 12px;
+    }
+    .view__more__proj {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .about__title{
+       text-align: left !important;
+      }
+      .test__desc {
+        font-size: 14px;
+        
+        margin-top: 5px;
+        line-height: 20px;
+    }
+    .gghgfdryh{
+        font-size: 30px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .sooper__power {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    .ftbl_styl__container{
+        grid-template-columns: 1fr;
+    }
+    .pdct__bike__container{
+        grid-template-columns: 1fr;
+    }
+    .ftbl__love {
+        border-radius: 36px;
+        background: #D1C5FD;
+        height: 280px;
+    }
+    .style__love{
+        height: 280px;
+    }
+    .pod__love{
+        height: 280px;
+    }
+    .bike__love{
+        height: 280px;
+    }
+ }
