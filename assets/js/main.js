@@ -105,7 +105,7 @@ const sr = ScrollReveal({
     // reset: true
 })
 
-sr.reveal(`.home__data,.project__card,.about__para`)
+sr.reveal(`.home__data,.project__card,.about__para,.ffjsjjs,.categ,.dsiug,.hhyhhia,.tgfdd,.dufagfg,.yhsaoo,.mmkann,.njnjj`)
 sr.reveal(`.home__img`, {delay: 500})
 sr.reveal(`.home__social`, {delay: 600})
 sr.reveal(`.about__img, .contact__box`,{origin: 'left'})
