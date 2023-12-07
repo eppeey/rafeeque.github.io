@@ -1,0 +1,97 @@
+.test__card{
+    border-radius: 25px;
+    padding: 1.5rem 1rem;
+    width: 270px;
+    background-color: #fff;
+    
+    transition: .3s;
+    border: 1px solid #EAEAEA;
+ }
+ .test__desc{
+    font-size: 16px;
+font-weight: 300;
+color: #000;
+margin-top: 8px;
+line-height: 21px;
+ }
+ .hdggs{
+    width: 50px;
+    height: 50px;
+ }
+ .thaihd{
+  font-size: 14px;
+  margin-top: 5px;
+ }
+ .test__prof{
+    display: flex;
+    gap: 1rem;
+    margin-top: 20px;
+ }
+ .hhhbs{
+  font-size: 18px;
+ }
+ .testimo{
+    background-color:#F8F7F2 ;
+ }
+ .gttdsg{
+    text-align: center;
+    margin-bottom: 50px;
+ }
+ .gfrdh{
+    margin-bottom: 10px !important;
+ }
+.custom-container {
+    --space: 2rem;
+    display: grid;
+    align-content: center;
+    overflow: hidden;
+    width: 100%;
+}
+
+.custom-marquee {
+    --duration: 200s;
+    --gap: var(--space);
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+}
+
+.custom-marquee-group {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1.5rem;
+    min-width: 100%;
+    animation: custom-scroll var(--duration) linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .custom-marquee-group {
+        animation-play-state: paused;
+    }
+}
+
+.custom-marquee-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+.custom-marquee-reverse .custom-marquee-group {
+    animation-direction: reverse;
+    animation-delay: calc(var(--duration) / -2);
+}
+
+@keyframes custom-scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-100% - var(--gap)));
+    }
+}
