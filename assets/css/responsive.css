@@ -90,12 +90,25 @@
         width: 90%;
         
     }
+    .website__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+    
 }
  @media (max-width: 767.98px) { 
     .home__img {
         width: 100%;
         justify-self: center;
     } 
+    .fehg {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 18px;
+        color: #000;
+        font-weight: 600;
+    }
     .projects__container {
         display: grid;
         grid-template-columns: 1fr;
@@ -104,6 +117,11 @@
     .section__title, .section__title-center{
         font-size: 35px;
         text-align: center;
+    }
+    .website__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 4rem;
     }
     .jjuhahh {
         border-radius: 12px;
@@ -117,7 +135,7 @@
         font-size: 30px;
       }
       .breadcrumbb{
-        height: 300px;
+        height: 200px;
        
       
       }
@@ -129,7 +147,7 @@
         height: 350px;
         background-size: cover;
         background-repeat: no-repeat;
-        background-image: url(../img/bgg.svg);
+        background-image: url(../img/casebg2.svg);
     }
     .ikikjj{
         color: #00AF04;
@@ -172,6 +190,39 @@
         font-size: 40px;
         font-weight: 700;
     }
+    .website__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .hgsgsgs {
+        margin-left: 5px;
+    }
+    .yjajhsh {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    .iijshh {
+        color: rgb(45, 45, 45);
+        font-weight: 400;
+        font-size: 12px;
+        border-radius: 30px;
+        padding: 6px 10px;
+        background-color: #F8F7F2;
+    }
+    .fehg {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 16px;
+        color: #000;
+        font-weight: 600;
+    }
+    .szza {
+        font-size: 20px;
+        color: rgb(0, 70, 189);
+    }
+    
     .casebreadcrumb {
         height: 320px;
         
@@ -217,7 +268,7 @@
         font-size: 16px;
     }
     .yysfdhhg{
-        margin-top: 15px;
+        margin-top: 25px;
         
       }
       .ikikjj{
@@ -232,7 +283,7 @@
         margin-top: 0px;
        }
     .breadcrumbb{
-        height: 250px;
+        height: 150px;
        
       
       }

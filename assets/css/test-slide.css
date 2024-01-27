@@ -49,7 +49,7 @@ line-height: 21px;
 }
 
 .custom-marquee {
-    --duration: 200s;
+    --duration:50s;
     --gap: var(--space);
     display: flex;
     overflow: hidden;
@@ -61,7 +61,7 @@ line-height: 21px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 1.5rem;
+    gap: 2.5rem;
     min-width: 100%;
     animation: custom-scroll var(--duration) linear infinite;
 }

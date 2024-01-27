@@ -400,7 +400,7 @@ the website, in dark theme
   height: 350px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url('../img/bgg.svg');
+  background-image: url('../img/casebg2.svg');
 
 }
 .casebreadcrumb{
@@ -567,6 +567,18 @@ the website, in dark theme
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.landing__card{
+ /* height: 500px; */
+}
+.bvcgg{
+  border-radius: 25px;
+  padding: 10px;
+  height: 350px;
+  width: 500px;
+  background-color: #ffffff;
+  transition: .3s;
+  border: 1px solid #EAEAEA;
 }
 /*=============== BUTTONS ===============*/
 .button{
@@ -772,7 +784,69 @@ line-height: 28px;
   color: var(--first-color);
   margin-top: .15rem;
 }
+/*=============== WEBSITES ===============*/
+.website__container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+.website__cards{
+  background-color: #ffffff;
+  border-radius: 30px;
+  display: grid;
+  padding: 1rem;
+  border: 1px solid #EAEAEA;
+}
+.wbste__inner{
+  display: grid;
+  gap: 1rem;
+}
+.yyhsf{
+  border-radius: 20px;
 
+  /* height: 100%; */
+}
+.fehg{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #000;
+  font-weight: 600;
+}
+.yfegdfu{
+  margin-top: 20px;
+}
+.webb__cont{
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+.iijshh{
+  color: rgb(45, 45, 45);
+  font-weight: 400;
+  font-size: 14px;
+  border-radius: 30px;
+
+  padding: 6px 10px;
+  background-color: #F8F7F2;
+}
+.hgsgsgs{
+  margin-left: 20px;
+}
+.website__cards:hover{
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+.yjajhsh{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.szza{
+  font-size: 24px;
+  color: rgb(0, 70, 189);
+}
 /*=============== CASESTUDY ===============*/
 .projects__container{
   display: grid;
@@ -1053,11 +1127,11 @@ line-height: normal;
 /*=============== SCROLL BAR ===============*/
 ::-webkit-scrollbar{
   width: .6rem;
-  background: hsl(var(--hue), 4%, 53%);
+  background: #F8F7F2;
 }
 
 ::-webkit-scrollbar-thumb{
-  background: hsl(var(--hue), 4%, 29%);
+  background: rgb(234, 217, 184);
   border-radius: .5rem;
 }
 
