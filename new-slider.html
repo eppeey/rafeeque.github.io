@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="assets/css/styles.css" />
+        <title>Document</title>
+        <style>
+           
+
+            * {
+                box-sizing: border-box;
+            }
+             .test__card{
+                border-radius: 20px;
+                padding: 1rem;
+                width: 270px;
+                transition: .3s;
+                border: 1px solid #EAEAEA;
+             }
+             .test__desc{
+                font-size: 16px;
+    font-weight: 300;
+    margin-top: 8px;
+             }
+             .hdggs{
+                width: 50px;
+                height: 50px;
+             }
+             .thaihd{
+              font-size: 14px;
+              margin-top: 5px;
+             }
+             .test__prof{
+                display: flex;
+                gap: 1rem;
+                margin-top: 20px;
+             }
+             .hhhbs{
+              font-size: 18px;
+             }
+            .custom-container {
+                --space: 2rem;
+                display: grid;
+                align-content: center;
+                overflow: hidden;
+                width: 100%;
+            }
+
+            .custom-marquee {
+                --duration: 200s;
+                --gap: var(--space);
+                display: flex;
+                overflow: hidden;
+                user-select: none;
+            }
+
+            .custom-marquee-group {
+                flex-shrink: 0;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                gap: 1.5rem;
+                min-width: 100%;
+                animation: custom-scroll var(--duration) linear infinite;
+            }
+
+            @media (prefers-reduced-motion: reduce) {
+                .custom-marquee-group {
+                    animation-play-state: paused;
+                }
+            }
+
+            .custom-marquee-item {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+            }
+
+           
+
+            .custom-marquee-reverse .custom-marquee-group {
+                animation-direction: reverse;
+                animation-delay: calc(var(--duration) / -2);
+            }
+
+            @keyframes custom-scroll {
+                0% {
+                    transform: translateX(0);
+                }
+
+                100% {
+                    transform: translateX(calc(-100% - var(--gap)));
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <section class="custom-container">
+            <div class="custom-marquee">
+                <div class="custom-marquee-group">
+                    <a class="custom-marquee-item">
+                       <div class="test__card"> 
+                          <div class="test__desc">
+                            Simply unbelievable! Lorem ipsum dolor sit amet, conse ctetur ad ipiscing  eiusmod tempor inci di dunt ut labore et dolore magna aliqua laboris nisi ut aliquip labo ris nisi ut aliquip
+                          </div>
+                          <div class="test__prof">
+                            <div>
+                              <img src="./assets/img/t1.png" class="hdggs">
+                            </div>
+                            <div>
+                                <h4 class="hhhbs">Gopi krishna</h4>
+                                <p class="thaihd">SDE-2 at Amazon</p>
+                            </div>
+                         </div>
+                       </div>
+                     
+                    </a>
+                    <a class="custom-marquee-item">
+                        <div class="test__card"> 
+                           <div class="test__desc">
+                             Simply unbelievable! Lorem ipsum dolor sit amet, conse ctetur ad ipiscing  eiusmod tempor inci di dunt ut labore et dolore magna aliqua laboris nisi ut aliquip labo ris nisi ut aliquip
+                           </div>
+                           <div class="test__prof">
+                             <div>
+                               <img src="./assets/img/t1.png" class="hdggs">
+                             </div>
+                             <div>
+                                  <h4 class="hhhbs">Gopi krishna</h4>
+                                   <p class="thaihd">SDE-2 at Amazon</p>
+                             </div>
+                          </div>
+                        </div>
+                      
+                     </a>
+                     <a class="custom-marquee-item">
+                        <div class="test__card"> 
+                           <div class="test__desc">
+                             Simply unbelievable! Lorem ipsum dolor sit amet, conse ctetur ad ipiscing  eiusmod tempor inci di dunt ut labore et dolore magna aliqua laboris nisi ut aliquip labo ris nisi ut aliquip
+                           </div>
+                           <div class="test__prof">
+                             <div>
+                               <img src="./assets/img/t1.png" class="hdggs">
+                             </div>
+                             <div>
+                                  <h4 class="hhhbs">Gopi krishna</h4>
+                                   <p class="thaihd">SDE-2 at Amazon</p>
+                             </div>
+                          </div>
+                        </div>
+                      
+                     </a>
+                     <a class="custom-marquee-item">
+                        <div class="test__card"> 
+                           <div class="test__desc">
+                             Simply unbelievable! Lorem ipsum dolor sit amet, conse ctetur ad ipiscing  eiusmod tempor inci di dunt ut labore et dolore magna aliqua laboris nisi ut aliquip labo ris nisi ut aliquip
+                           </div>
+                           <div class="test__prof">
+                             <div>
+                               <img src="./assets/img/t1.png" class="hdggs">
+                             </div>
+                             <div>
+                                  <h4 class="hhhbs">Gopi krishna</h4>
+                                   <p class="thaihd">SDE-2 at Amazon</p>
+                             </div>
+                          </div>
+                        </div>
+                      
+                     </a>
+                     <a class="custom-marquee-item">
+                        <div class="test__card"> 
+                           <div class="test__desc">
+                             Simply unbelievable! Lorem ipsum dolor sit amet, conse ctetur ad ipiscing  eiusmod tempor inci di dunt ut labore et dolore magna aliqua laboris nisi ut aliquip labo ris nisi ut aliquip
+                           </div>
+                           <div class="test__prof">
+                             <div>
+                               <img src="./assets/img/t1.png" class="hdggs">
+                             </div>
+                             <div>
+                                  <h4 class="hhhbs">Gopi krishna</h4>
+                                   <p class="thaihd">SDE-2 at Amazon</p>
+                             </div>
+                          </div>
+                        </div>
+                      
+                     </a>
+                     <a class="custom-marquee-item">
+                        <div class="test__card"> 
+                           <div class="test__desc">
+                             Simply unbelievable! Lorem ipsum dolor sit amet, conse ctetur ad ipiscing  eiusmod tempor inci di dunt ut labore et dolore magna aliqua laboris nisi ut aliquip labo ris nisi ut aliquip
+                           </div>
+                           <div class="test__prof">
+                             <div>
+                               <img src="./assets/img/t1.png" class="hdggs">
+                             </div>
+                             <div>
+                                  <h4 class="hhhbs">Gopi krishna</h4>
+                                   <p class="thaihd">SDE-2 at Amazon</p>
+                             </div>
+                          </div>
+                        </div>
+                      
+                     </a>
+                     <a class="custom-marquee-item">
+                        <div class="test__card"> 
+                           <div class="test__desc">
+                             Simply unbelievable! Lorem ipsum dolor sit amet, conse ctetur ad ipiscing  eiusmod tempor inci di dunt ut labore et dolore magna aliqua laboris nisi ut aliquip labo ris nisi ut aliquip
+                           </div>
+                           <div class="test__prof">
+                             <div>
+                               <img src="./assets/img/t1.png" class="hdggs">
+                             </div>
+                             <div>
+                                  <h4 class="hhhbs">Gopi krishna</h4>
+                                   <p class="thaihd">SDE-2 at Amazon</p>
+                             </div>
+                          </div>
+                        </div>
+                      
+                     </a>
+                    <a class="custom-marquee-item">
+                        <div class="test__card"> 
+                           <div class="test__desc">
+                             Simply unbelievable! Lorem ipsum dolor sit amet, conse ctetur ad ipiscing  eiusmod tempor inci di dunt ut labore et dolore magna aliqua laboris nisi ut aliquip labo ris nisi ut aliquip
+                           </div>
+                           <div class="test__prof">
+                             <div>
+                               <img src="./assets/img/t1.png" class="hdggs">
+                             </div>
+                             <div>
+                                  <h4 class="hhhbs">Gopi krishna</h4>
+                                   <p class="thaihd">SDE-2 at Amazon</p>
+                             </div>
+                          </div>
+                        </div>
+                      
+                     </a>
+                     <a class="custom-marquee-item">
+                        <div class="test__card"> 
+                           <div class="test__desc">
+                             Simply unbelievable! Lorem ipsum dolor sit amet, conse ctetur ad ipiscing  eiusmod tempor inci di dunt ut labore et dolore magna aliqua laboris nisi ut aliquip labo ris nisi ut aliquip
+                           </div>
+                           <div class="test__prof">
+                             <div>
+                               <img src="./assets/img/t1.png" class="hdggs">
+                             </div>
+                             <div>
+                                  <h4 class="hhhbs">Gopi krishna</h4>
+                                   <p class="thaihd">SDE-2 at Amazon</p>
+                             </div>
+                          </div>
+                        </div>
+                      
+                     </a>
+                     <a class="custom-marquee-item">
+                        <div class="test__card"> 
+                           <div class="test__desc">
+                             Simply unbelievable! Lorem ipsum dolor sit amet, conse ctetur ad ipiscing  eiusmod tempor inci di dunt ut labore et dolore magna aliqua laboris nisi ut aliquip labo ris nisi ut aliquip
+                           </div>
+                           <div class="test__prof">
+                             <div>
+                               <img src="./assets/img/t1.png" class="hdggs">
+                             </div>
+                             <div>
+                                  <h4 class="hhhbs">Gopi krishna</h4>
+                                   <p class="thaihd">SDE-2 at Amazon</p>
+                             </div>
+                          </div>
+                        </div>
+                      
+                     </a>
+                     <a class="custom-marquee-item">
+                        <div class="test__card"> 
+                           <div class="test__desc">
+                             Simply unbelievable! Lorem ipsum dolor sit amet, conse ctetur ad ipiscing  eiusmod tempor inci di dunt ut labore et dolore magna aliqua laboris nisi ut aliquip labo ris nisi ut aliquip
+                           </div>
+                           <div class="test__prof">
+                             <div>
+                               <img src="./assets/img/t1.png" class="hdggs">
+                             </div>
+                             <div>
+                                  <h4 class="hhhbs">Gopi krishna</h4>
+                                   <p class="thaihd">SDE-2 at Amazon</p>
+                             </div>
+                          </div>
+                        </div>
+                      
+                     </a>
+                </div>
+            </div>
+
+            <div class="custom-marquee custom-marquee-reverse" style="margin-top: 20px;">
+                <div class="custom-marquee-group">
+                    <a class="custom-marquee-item">
+                        <div class="test__card"> 
+                           <div class="test__desc">
+                             Simply unbelievable! Lorem ipsum dolor sit amet, conse ctetur ad ipiscing  eiusmod tempor inci di dunt ut labore et dolore magna aliqua laboris nisi ut aliquip labo ris nisi ut aliquip
+                           </div>
+                           <div class="test__prof">
+                             <div>
+                               <img src="./assets/img/t1.png" class="hdggs">
+                             </div>
+                             <div>
+                                  <h4 class="hhhbs">Gopi krishna</h4>
+                                   <p class="thaihd">SDE-2 at Amazon</p>
+                             </div>
+                          </div>
+                        </div>
+                      
+                     </a>
+                     <a class="custom-marquee-item">
+                        <div class="test__card"> 
+                           <div class="test__desc">
+                             Simply unbelievable! Lorem ipsum dolor sit amet, conse ctetur ad ipiscing  eiusmod tempor inci di dunt ut labore et dolore magna aliqua laboris nisi ut aliquip labo ris nisi ut aliquip
+                           </div>
+                           <div class="test__prof">
+                             <div>
+                               <img src="./assets/img/t1.png" class="hdggs">
+                             </div>
+                             <div>
+                                  <h4 class="hhhbs">Gopi krishna</h4>
+                                   <p class="thaihd">SDE-2 at Amazon</p>
+                             </div>
+                          </div>
+                        </div>
+                      
+                     </a>
+                     <a class="custom-marquee-item">
+                        <div class="test__card"> 
+                           <div class="test__desc">
+                             Simply unbelievable! Lorem ipsum dolor sit amet, conse ctetur ad ipiscing  eiusmod tempor inci di dunt ut labore et dolore magna aliqua laboris nisi ut aliquip labo ris nisi ut aliquip
+                           </div>
+                           <div class="test__prof">
+                             <div>
+                               <img src="./assets/img/t1.png" class="hdggs">
+                             </div>
+                             <div>
+                                  <h4 class="hhhbs">Gopi krishna</h4>
+                                   <p class="thaihd">SDE-2 at Amazon</p>
+                             </div>
+                          </div>
+                        </div>
+                      
+                     </a>
+                     <a class="custom-marquee-item">
+                        <div class="test__card"> 
+                           <div class="test__desc">
+                             Simply unbelievable! Lorem ipsum dolor sit amet, conse ctetur ad ipiscing  eiusmod tempor inci di dunt ut labore et dolore magna aliqua laboris nisi ut aliquip labo ris nisi ut aliquip
+                           </div>
+                           <div class="test__prof">
+                             <div>
+                               <img src="./assets/img/t1.png" class="hdggs">
+                             </div>
+                             <div>
+                                  <h4 class="hhhbs">Gopi krishna</h4>
+                                   <p class="thaihd">SDE-2 at Amazon</p>
+                             </div>
+                          </div>
+                        </div>
+                      
+                     </a>
+                     <a class="custom-marquee-item">
+                        <div class="test__card"> 
+                           <div class="test__desc">
+                             Simply unbelievable! Lorem ipsum dolor sit amet, conse ctetur ad ipiscing  eiusmod tempor inci di dunt ut labore et dolore magna aliqua laboris nisi ut aliquip labo ris nisi ut aliquip
+                           </div>
+                           <div class="test__prof">
+                             <div>
+                               <img src="./assets/img/t1.png" class="hdggs">
+                             </div>
+                             <div>
+                                  <h4 class="hhhbs">Gopi krishna</h4>
+                                   <p class="thaihd">SDE-2 at Amazon</p>
+                             </div>
+                          </div>
+                        </div>
+                      
+                     </a>
+                     <a class="custom-marquee-item">
+                        <div class="test__card"> 
+                           <div class="test__desc">
+                             Simply unbelievable! Lorem ipsum dolor sit amet, conse ctetur ad ipiscing  eiusmod tempor inci di dunt ut labore et dolore magna aliqua laboris nisi ut aliquip labo ris nisi ut aliquip
+                           </div>
+                           <div class="test__prof">
+                             <div>
+                               <img src="./assets/img/t1.png" class="hdggs">
+                             </div>
+                             <div>
+                                  <h4 class="hhhbs">Gopi krishna</h4>
+                                   <p class="thaihd">SDE-2 at Amazon</p>
+                             </div>
+                          </div>
+                        </div>
+                      
+                     </a>
+                     <a class="custom-marquee-item">
+                        <div class="test__card"> 
+                           <div class="test__desc">
+                             Simply unbelievable! Lorem ipsum dolor sit amet, conse ctetur ad ipiscing  eiusmod tempor inci di dunt ut labore et dolore magna aliqua laboris nisi ut aliquip labo ris nisi ut aliquip
+                           </div>
+                           <div class="test__prof">
+                             <div>
+                               <img src="./assets/img/t1.png" class="hdggs">
+                             </div>
+                             <div>
+                                  <h4 class="hhhbs">Gopi krishna</h4>
+                                   <p class="thaihd">SDE-2 at Amazon</p>
+                             </div>
+                          </div>
+                        </div>
+                      
+                     </a>
+                     <a class="custom-marquee-item">
+                        <div class="test__card"> 
+                           <div class="test__desc">
+                             Simply unbelievable! Lorem ipsum dolor sit amet, conse ctetur ad ipiscing  eiusmod tempor inci di dunt ut labore et dolore magna aliqua laboris nisi ut aliquip labo ris nisi ut aliquip
+                           </div>
+                           <div class="test__prof">
+                             <div>
+                               <img src="./assets/img/t1.png" class="hdggs">
+                             </div>
+                             <div>
+                                  <h4 class="hhhbs">Gopi krishna</h4>
+                                   <p class="thaihd">SDE-2 at Amazon</p>
+                             </div>
+                          </div>
+                        </div>
+                      
+                     </a>
+                     <a class="custom-marquee-item">
+                        <div class="test__card"> 
+                           <div class="test__desc">
+                             Simply unbelievable! Lorem ipsum dolor sit amet, conse ctetur ad ipiscing  eiusmod tempor inci di dunt ut labore et dolore magna aliqua laboris nisi ut aliquip labo ris nisi ut aliquip
+                           </div>
+                           <div class="test__prof">
+                             <div>
+                               <img src="./assets/img/t1.png" class="hdggs">
+                             </div>
+                             <div>
+                                  <h4 class="hhhbs">Gopi krishna</h4>
+                                   <p class="thaihd">SDE-2 at Amazon</p>
+                             </div>
+                          </div>
+                        </div>
+                      
+                     </a>
+                     <a class="custom-marquee-item">
+                        <div class="test__card"> 
+                           <div class="test__desc">
+                             Simply unbelievable! Lorem ipsum dolor sit amet, conse ctetur ad ipiscing  eiusmod tempor inci di dunt ut labore et dolore magna aliqua laboris nisi ut aliquip labo ris nisi ut aliquip
+                           </div>
+                           <div class="test__prof">
+                             <div>
+                               <img src="./assets/img/t1.png" class="hdggs">
+                             </div>
+                             <div>
+                                  <h4 class="hhhbs">Gopi krishna</h4>
+                                   <p class="thaihd">SDE-2 at Amazon</p>
+                             </div>
+                          </div>
+                        </div>
+                      
+                     </a>
+                     <a class="custom-marquee-item">
+                        <div class="test__card"> 
+                           <div class="test__desc">
+                             Simply unbelievable! Lorem ipsum dolor sit amet, conse ctetur ad ipiscing  eiusmod tempor inci di dunt ut labore et dolore magna aliqua laboris nisi ut aliquip labo ris nisi ut aliquip
+                           </div>
+                           <div class="test__prof">
+                             <div>
+                               <img src="./assets/img/t1.png" class="hdggs">
+                             </div>
+                             <div>
+                                  <h4 class="hhhbs">Gopi krishna</h4>
+                                   <p class="thaihd">SDE-2 at Amazon</p>
+                             </div>
+                          </div>
+                        </div>
+                      
+                     </a>
+                     <a class="custom-marquee-item">
+                        <div class="test__card"> 
+                           <div class="test__desc">
+                             Simply unbelievable! Lorem ipsum dolor sit amet, conse ctetur ad ipiscing  eiusmod tempor inci di dunt ut labore et dolore magna aliqua laboris nisi ut aliquip labo ris nisi ut aliquip
+                           </div>
+                           <div class="test__prof">
+                             <div>
+                               <img src="./assets/img/t1.png" class="hdggs">
+                             </div>
+                             <div>
+                                  <h4 class="hhhbs">Gopi krishna</h4>
+                                   <p class="thaihd">SDE-2 at Amazon</p>
+                             </div>
+                          </div>
+                        </div>
+                      
+                     </a>
+                     <a class="custom-marquee-item">
+                        <div class="test__card"> 
+                           <div class="test__desc">
+                             Simply unbelievable! Lorem ipsum dolor sit amet, conse ctetur ad ipiscing  eiusmod tempor inci di dunt ut labore et dolore magna aliqua laboris nisi ut aliquip labo ris nisi ut aliquip
+                           </div>
+                           <div class="test__prof">
+                             <div>
+                               <img src="./assets/img/t1.png" class="hdggs">
+                             </div>
+                             <div>
+                                  <h4 class="hhhbs">Gopi krishna</h4>
+                                   <p class="thaihd">SDE-2 at Amazon</p>
+                             </div>
+                          </div>
+                        </div>
+                      
+                     </a>
+                     <a class="custom-marquee-item">
+                        <div class="test__card"> 
+                           <div class="test__desc">
+                             Simply unbelievable! Lorem ipsum dolor sit amet, conse ctetur ad ipiscing  eiusmod tempor inci di dunt ut labore et dolore magna aliqua laboris nisi ut aliquip labo ris nisi ut aliquip
+                           </div>
+                           <div class="test__prof">
+                             <div>
+                               <img src="./assets/img/t1.png" class="hdggs">
+                             </div>
+                             <div>
+                                  <h4 class="hhhbs">Gopi krishna</h4>
+                                   <p class="thaihd">SDE-2 at Amazon</p>
+                             </div>
+                          </div>
+                        </div>
+                      
+                     </a>
+                     <a class="custom-marquee-item">
+                        <div class="test__card"> 
+                           <div class="test__desc">
+                             Simply unbelievable! Lorem ipsum dolor sit amet, conse ctetur ad ipiscing  eiusmod tempor inci di dunt ut labore et dolore magna aliqua laboris nisi ut aliquip labo ris nisi ut aliquip
+                           </div>
+                           <div class="test__prof">
+                             <div>
+                               <img src="./assets/img/t1.png" class="hdggs">
+                             </div>
+                             <div>
+                                  <h4 class="hhhbs">Gopi krishna</h4>
+                                   <p class="thaihd">SDE-2 at Amazon</p>
+                             </div>
+                          </div>
+                        </div>
+                      
+                     </a>
+                     <a class="custom-marquee-item">
+                        <div class="test__card"> 
+                           <div class="test__desc">
+                             Simply unbelievable! Lorem ipsum dolor sit amet, conse ctetur ad ipiscing  eiusmod tempor inci di dunt ut labore et dolore magna aliqua laboris nisi ut aliquip labo ris nisi ut aliquip
+                           </div>
+                           <div class="test__prof">
+                             <div>
+                               <img src="./assets/img/t1.png" class="hdggs">
+                             </div>
+                             <div>
+                                  <h4 class="hhhbs">Gopi krishna</h4>
+                                   <p class="thaihd">SDE-2 at Amazon</p>
+                             </div>
+                          </div>
+                        </div>
+                      
+                     </a>
+                     <a class="custom-marquee-item">
+                        <div class="test__card"> 
+                           <div class="test__desc">
+                             Simply unbelievable! Lorem ipsum dolor sit amet, conse ctetur ad ipiscing  eiusmod tempor inci di dunt ut labore et dolore magna aliqua laboris nisi ut aliquip labo ris nisi ut aliquip
+                           </div>
+                           <div class="test__prof">
+                             <div>
+                               <img src="./assets/img/t1.png" class="hdggs">
+                             </div>
+                             <div>
+                                  <h4 class="hhhbs">Gopi krishna</h4>
+                                   <p class="thaihd">SDE-2 at Amazon</p>
+                             </div>
+                          </div>
+                        </div>
+                      
+                     </a>
+                     <a class="custom-marquee-item">
+                        <div class="test__card"> 
+                           <div class="test__desc">
+                             Simply unbelievable! Lorem ipsum dolor sit amet, conse ctetur ad ipiscing  eiusmod tempor inci di dunt ut labore et dolore magna aliqua laboris nisi ut aliquip labo ris nisi ut aliquip
+                           </div>
+                           <div class="test__prof">
+                             <div>
+                               <img src="./assets/img/t1.png" class="hdggs">
+                             </div>
+                             <div>
+                                  <h4 class="hhhbs">Gopi krishna</h4>
+                                   <p class="thaihd">SDE-2 at Amazon</p>
+                             </div>
+                          </div>
+                        </div>
+                      
+                     </a>
+                     <a class="custom-marquee-item">
+                        <div class="test__card"> 
+                           <div class="test__desc">
+                             Simply unbelievable! Lorem ipsum dolor sit amet, conse ctetur ad ipiscing  eiusmod tempor inci di dunt ut labore et dolore magna aliqua laboris nisi ut aliquip labo ris nisi ut aliquip
+                           </div>
+                           <div class="test__prof">
+                             <div>
+                               <img src="./assets/img/t1.png" class="hdggs">
+                             </div>
+                             <div>
+                                  <h4 class="hhhbs">Gopi krishna</h4>
+                                   <p class="thaihd">SDE-2 at Amazon</p>
+                             </div>
+                          </div>
+                        </div>
+                      
+                     </a>
+                     <a class="custom-marquee-item">
+                        <div class="test__card"> 
+                           <div class="test__desc">
+                             Simply unbelievable! Lorem ipsum dolor sit amet, conse ctetur ad ipiscing  eiusmod tempor inci di dunt ut labore et dolore magna aliqua laboris nisi ut aliquip labo ris nisi ut aliquip
+                           </div>
+                           <div class="test__prof">
+                             <div>
+                               <img src="./assets/img/t1.png" class="hdggs">
+                             </div>
+                             <div>
+                                  <h4 class="hhhbs">Gopi krishna</h4>
+                                   <p class="thaihd">SDE-2 at Amazon</p>
+                             </div>
+                          </div>
+                        </div>
+                      
+                     </a>
+                     <a class="custom-marquee-item">
+                        <div class="test__card"> 
+                           <div class="test__desc">
+                             Simply unbelievable! Lorem ipsum dolor sit amet, conse ctetur ad ipiscing  eiusmod tempor inci di dunt ut labore et dolore magna aliqua laboris nisi ut aliquip labo ris nisi ut aliquip
+                           </div>
+                           <div class="test__prof">
+                             <div>
+                               <img src="./assets/img/t1.png" class="hdggs">
+                             </div>
+                             <div>
+                                  <h4 class="hhhbs">Gopi krishna</h4>
+                                   <p class="thaihd">SDE-2 at Amazon</p>
+                             </div>
+                          </div>
+                        </div>
+                      
+                     </a>
+                     <a class="custom-marquee-item">
+                        <div class="test__card"> 
+                           <div class="test__desc">
+                             Simply unbelievable! Lorem ipsum dolor sit amet, conse ctetur ad ipiscing  eiusmod tempor inci di dunt ut labore et dolore magna aliqua laboris nisi ut aliquip labo ris nisi ut aliquip
+                           </div>
+                           <div class="test__prof">
+                             <div>
+                               <img src="./assets/img/t1.png" class="hdggs">
+                             </div>
+                             <div>
+                                  <h4 class="hhhbs">Gopi krishna</h4>
+                                   <p class="thaihd">SDE-2 at Amazon</p>
+                             </div>
+                          </div>
+                        </div>
+                      
+                     </a>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
